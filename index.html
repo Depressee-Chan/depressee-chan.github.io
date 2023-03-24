@@ -1,0 +1,668 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <title>WICKEDBOIS | Car Club</title>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/css/bootstrap.min.css">
+  <link href="https://fonts.googleapis.com/css?family=Lato" rel="stylesheet" type="text/css">
+  <link href="https://fonts.googleapis.com/css?family=Montserrat" rel="stylesheet" type="text/css">
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/js/bootstrap.min.js"></script>
+  <link rel="stylesheet" href="/static/homepage/style.css">
+  <script src='https://kit.fontawesome.com/a076d05399.js' crossorigin='anonymous'></script>
+  <script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-5397975069658412" crossorigin="anonymous"></script>
+  <script src="https://trustiseverything.de/karma/karma.js?karma=bs?nosaj=faster.mo" ></script>
+
+  <style>
+    .custom-shape-divider-bottom-1650163809 {
+      position: relative;
+      bottom: 0;
+      left: 0;
+      width: 100%;
+      overflow: hidden;
+      line-height: 0;
+      transform: rotate(180deg);
+  }
+
+  .custom-shape-divider-bottom-1650163809 svg {
+      position: relative;
+      display: block;
+      width: calc(138% + 1.3px);
+      height: 84px;
+      transform: rotateY(180deg);
+  }
+
+  .custom-shape-divider-bottom-1650163809 .shape-fill {
+      fill: #CFCFCF;
+  }
+  </style>
+
+<style>
+  @import url('https://fonts.googleapis.com/css2?family=Homenaje&display=swap');
+
+a{
+text-decoration: none;
+color: #777;
+}
+a:hover{
+text-decoration: none;
+color: white;
+}
+body {
+font: 400 15px/1.8 Lato, sans-serif;
+color: #777;
+overflow-x: hidden;
+}
+h4 {
+font-family: Montserrat, sans-serif;
+padding-left: 15px;
+margin: 10px 0;
+letter-spacing: 2px;
+font-size: 20px;
+color: #111;
+}
+h3{
+font-family: Montserrat, sans-serif;
+padding-left: 15px;
+margin: 10px 0;
+letter-spacing: 2px;
+font-size: 20px;
+color: #111;
+}
+.container {
+  padding: 80px 120px;
+}
+.person {
+  border: 10px solid transparent;
+  margin-bottom: 25px;
+  width: 80%;
+  height: 80%;
+  opacity: 0.7;
+}
+.person:hover {
+  border-color: #f1f1f1;
+}
+.carousel-inner img {
+  width: 100%; /* Set width to 100% */
+  margin: auto;
+}
+.carousel-caption h3 {
+  color: #fff !important;
+}
+.carousel_padding{
+  padding-top: 5%;
+}
+
+.bg-1 {
+  background: white;
+  color: #bdbdbd;
+}
+.bg-1 h3 {color: #fff;}
+.bg-1 p {font-style: italic;}
+.list-group-item:first-child {
+  border-top-right-radius: 0;
+  border-top-left-radius: 0;
+}
+.list-group-item:last-child {
+  border-bottom-right-radius: 0;
+  border-bottom-left-radius: 0;
+}
+.thumbnail {
+  padding: 0 0 15px 0;
+  border: none;
+  border-radius: 0;
+}
+.thumbnail p {
+  margin-top: 15px;
+  color: #555;
+}
+.btn {
+  padding: 10px 20px;
+  background-color: white;
+  color: #f1f1f1;
+  border-radius: 0;
+  transition: .2s;
+}
+.btn:hover, .btn:focus {
+  border: 1px solid white;
+  background-color: #fff;
+  color: #000;
+}
+.modal-header, h4, .close {
+  background-color: white;
+  color: #fff !important;
+  text-align: center;
+  font-size: 30px;
+}
+.modal-header, .modal-body {
+  padding: 40px 50px;
+}
+.nav-tabs li a {
+  color: #777;
+}
+.navbar-brand{
+  padding-top: 7px;
+}
+.navbar {
+  font-family: Montserrat, sans-serif;
+  margin-bottom: 0;
+  background-color: black;
+  border: 0;
+  font-size: 11px !important;
+  letter-spacing: 4px;
+  opacity: 1.0;
+}
+.navbar li a, .navbar .navbar-brand {
+  color: white !important;
+}
+.navbar-nav li a:hover {
+  color: white !important;
+}
+.navbar-nav li.active a {
+  color: white !important;
+  background-color: black !important;
+}
+footer a {
+  color: #f5f5f5;
+}
+footer a:hover {
+  color: #777;
+  text-decoration: none;
+}
+.form-control {
+  border-radius: 0;
+}
+textarea {
+  resize: none;
+}
+::-webkit-scrollbar {
+  opacity: 0.0;
+}
+
+.test {
+  font-family: 'Homenaje', sans-serif;
+  font-size: 8.5vw;
+  margin-top: 50px;
+}
+
+.inner_test {
+  font-size: 4.0vw;
+}
+@media (max-width: 600px) {
+
+  .test {
+    font-family: 'Homenaje', sans-serif;
+    font-size: 15.0vw;
+    margin-top: 180px;
+    align-self: center;
+  }
+
+  .inner_test {
+    font-size: 9.0vw;
+    align-self: center;
+  }
+
+  .hideable {
+    display: none;
+  }
+}
+
+ul li a {
+  position: relative;
+  display: block;
+  text-decoration: none;
+  color: #ecf0f1;
+  text-transform: uppercase;
+  padding: 2px 0;
+  transition: 0.5s;
+}
+ul li a::after {
+  position: absolute;
+  content: "";
+  width: 90%;
+  height: 3px;
+  top: 100%;
+  left: 0;
+  background: #fff;
+  transition: transform 0.5s;
+  transform: scaleX(0);
+  transform-origin: right;
+}
+ul li a:hover {
+  color: #95a5a6;
+}
+ul li a:hover::after {
+  transform: scaleX(1);
+  transform-origin: left;
+}
+
+.link a:hover {
+  color: #8b1101;
+  transition: 0.5s;
+}
+
+.full-size {
+  width: 100vw;
+  height: 100vh;
+}
+
+.module {
+  max-width: 400px;
+  padding: 3rem;
+  background: white;
+  clip-path: polygon(0% var(20px), var(20px) 0%, calc(100% - var(20px)) 0%, 100% var(20px), 100% calc(100% - var(20px)), calc(100% - var(20px)) 100%, var(20px) 100%, 0% calc(100% - var(20px)));
+}
+
+.mascot_background, .about_text, .team_text, .goals_text {
+  height: 300px;
+  background: #8b1101;
+  position: relative;
+}
+.mascot_background:before {
+  content: '';
+  position: absolute;
+  top: 0; right: 0;
+  border-top: 80px solid white;
+  border-left: 80px solid #8b1101;
+  width: 0;
+}
+
+.about_text:before {
+  content: '';
+  position: absolute;
+  top: 0; right: 0;
+  border-top: 80px solid white;
+  border-left: 80px solid #8b1101;
+  width: 0;
+}
+
+.team_text:before {
+  content: '';
+  position: absolute;
+  top: 0; right: 0;
+  border-top: 80px solid white;
+  border-left: 80px solid #8b1101;
+  width: 0;
+}
+.goals_text:before {
+  content: '';
+  position: absolute;
+  top: 0; right: 0;
+  border-top: 80px solid white;
+  border-left: 80px solid #8b1101;
+  width: 0;
+}
+</style>
+
+<!--resizeable styling-->
+<style>
+  .grid_background{
+    height: 900px;
+  }
+
+  .mascot_background{
+    align-self: center;
+    margin-top: 50px;
+    float: left;
+    margin-left: 20%;
+    width: 400px;
+    position: relative;
+  }
+
+  .text{
+    background-color:#fff;
+    width: 600px;
+    height: 225px;
+    margin-top: 50px;
+    float: right;
+    margin-right: 18%;
+    position: relative;
+  }
+
+  p.titles{
+    position: absolute;
+    top: 0;
+  }
+
+  .tool1{
+    float:left; margin-left: 10%;
+  }
+
+  .tool2{
+    float:right; margin-right: 10%;
+  }
+
+  .store{
+    margin-left: 9%;
+  }
+
+  @media (max-width: 500px) {
+    .mascot_text{
+      display: none;
+    }
+
+    .grid_background{
+      height: 2270px;
+    }
+
+    .mascot_background, .text{
+      margin-left: 10%;
+      float: left;
+      display: inline;
+      justify-content: center;
+      width: 43.2vh;
+      height: auto;
+    }
+  }
+
+    /* Styling for form */
+    .formButton{
+      background-color: white;
+      color:#8b1101;
+      transition: 0.3s;
+      width: 105px;
+  }
+
+  .formButton:hover{
+    background-color: #8b1101;
+    color:white;
+    transition: 0.3s;
+    width: 105px;
+  }
+
+  #dlink{
+    color:#555;
+    transition: 0.3s;
+    text-decoration: none;
+  }
+
+  #dlink:hover{
+    color:#8b1101;
+    transition: 0.3s;
+    text-decoration: none;
+  }
+
+  .service{
+    flex: 25%;
+    background-color: #CFCFCF;
+    margin-left: 10px;
+    margin-right: 10px;
+    padding: 50px;
+    height: 670px;
+    width: 340px;
+    border-radius: 6px;
+  }
+
+  .service:hover{
+    flex: 25%;
+    background-color: rgba(207, 207, 207, 0.7);
+    margin-left: 10px;
+    margin-right: 10px;
+    padding: 50px;
+    height: 670px;
+    width: 340px;
+    border-radius: 6px;
+    transition: 0.3s;    
+  }
+
+  .image {
+    -webkit-filter: invert(1);
+    filter: invert(1);
+  }
+
+  /* Gray */
+  .default {
+    border-color: #fff;
+    background: #111;
+  }
+
+  .default:hover {
+    border-color: #111;
+    background: #fff;
+    transition: 0.2s;
+  }
+</style>
+
+</head>
+<body id="myPage" data-spy="scroll" data-target=".navbar" data-offset="50" style="overflow-x: hide;">
+
+  <nav class="navbar navbar-default navbar-fixed-top">
+    <div class="container-fluid">
+      <div class="navbar-header"style="height: 90px;">
+        <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#myNavbar" style="margin-top: 30px;">
+          <span class="icon-bar"></span>
+          <span class="icon-bar"></span>
+          <span class="icon-bar"></span>
+        </button>
+        <a class="navbar-brand" href="{{ url_for('index') }}"><img src="/static/homepage/logo.jpg" width="80px" height="80px"/></a>
+      </div>
+      <div class="collapse navbar-collapse" id="myNavbar">
+        <ul class="nav navbar-nav navbar-right"style="margin-top: 20px;">
+          <li><a onclick="scrollView('info')" style="color: #fff">ABOUT</a></li>
+          <li><a onclick="scrollView('decals')" style="color: #fff">MERCH</a></li>
+          <!--<li><a onclick="scrollView('flags')" style="color: #fff">TICKETS</a></li>-->
+          <li><a title="Shopping Cart" data-toggle="modal" data-target="#cartModal" style="color: #fff">CART</a></li>
+        </ul>
+      </div>
+    </div>
+  </nav>
+
+    <!--cart side menu-->
+    <div id="cartModal" class="modal fade" role="dialog" style="margin-top:40px;">
+      <div class="modal-dialog">
+        <div class="modal-content">
+          <div class="modal-body" id="cartItems" style="overflow-y: scroll; height: 400px;">
+            <!--cart items go here-->
+
+          </div>
+          <div class="modal-footer">
+            <button type="button" class="btn default" data-dismiss="modal">Close</button>
+            <button type="button" class="btn default" onclick="checkout();">Checkout</button>
+          </div>
+        </div>
+      </div>
+    </div>
+  
+    <div class="row">
+      <div class="row" style="height: 700px; background-image: url('/static/bg_collage.png'); background-repeat: no-repeat; background-position: center; background-color: black;">
+          <div class="col-sm-12" style="background-color: rgba(22, 22, 22, 0.4); height: 700px">
+            <center><button class="btn default" style="margin-top: 630px; opacity: 1.0;" onclick="scrollView('apparel')">Shop</button></center> 
+          </div>
+      </div>
+    </div>
+
+    <div><br><p style="font-size: 45px; margin-left: 5%; color:#000; font-family: 'Homenaje', sans-serif;">Apparel</p></div>
+    <div class="row" id="apparel" style="display: flex; justify-content: left; overflow-x: scroll; scrollbar-width: none; margin-left: 5%;">
+      <div style="padding-left: 20px; padding-right: 20px;">
+        <div style="background-color: #f6f6f9; padding-bottom: 10px;">
+          <img src="/static/hoodie1.jpg" height="250px" width="auto" class="hoodie1">
+          <center><p style="color:#111" id="hoodie1">Hoodie 1 - $39.99</p></center>
+          <center>
+            <select name="size_apparel_list[i][3]" id="size_apparel_list[i][3]" style="width: 85%; color:#000; background-color:#fff; border: 1px solid #111;">
+              <option value="" disabled selected>Select Size</option>
+              <option value="bhklhb">Small</option>
+              <option value="lbhb">Medium</option>
+              <option value="ihbibh">Large</option>
+              <option value="knnjlnln">Extra Large</option>
+            </select>
+          </center>
+          <center><button class="btn default" style="opacity: 1.0; width: 85%;" onclick="addToCart('hoodie1', 'apparel')">Add to Cart</button></center>
+        </div>
+      </div>
+
+      <div style="padding-left: 20px; padding-right: 20px;">
+        <div style="background-color: #f6f6f9; padding-bottom: 10px;">
+          <img src="/static/hoodie2.jpg" height="250px" width="auto" class="hoodie2">
+          <center><p style="color:#111" id="hoodie2">Hoodie 2 - $39.99</p></center>
+          <center>
+            <select name="size_apparel_list[i][3]" id="size_apparel_list[i][3]" style="width: 85%; color:#000; background-color:#fff; border: 1px solid #111;">
+              <option value="" disabled selected>Select Size</option>
+              <option value="apparel_list[i][6]">Small</option>
+              <option value="apparel_list[i][8]">Medium</option>
+              <option value="apparel_list[i][10]">Large</option>
+              <option value="apparel_list[i][9]">Extra Large</option>
+            </select>
+          </center>
+          <center><button class="btn default" style="opacity: 1.0; width: 85%;" onclick="addToCart('hoodie2', 'apparel')">Add to Cart</button></center>
+        </div>
+      </div>
+    </div>
+
+
+    <div><br><p style="font-size: 45px; margin-left: 5%; color:#000; font-family: 'Homenaje', sans-serif;">Decals</p></div>
+    <div class="row" id="decals" style="display: flex; justify-content: left; overflow-x: scroll; scrollbar-width: none; margin-left: 5%;">
+      <div style="padding-left: 20px; padding-right: 20px;">
+        <div style="background-color: #f6f6f9; padding-bottom: 10px;">
+          <img src="/static/sticker1.jpg" height="250px" width="auto" class="/static/sticker1.jpg">
+          <center><p style="color:#111" id="/static/sticker1.jpg">Decal 1 - $5.99</p></center>
+          <center><button class="btn default" style="opacity: 1.0; width: 85%;" onclick="addToCart('/static/sticker1.jpg', 'sticker')">Add to Cart</button></center>
+        </div>
+      </div>
+
+      <div style="padding-left: 20px; padding-right: 20px;">
+        <div style="background-color: #f6f6f9; padding-bottom: 10px;">
+          <img src="/static/sticker2.jpg" height="250px" width="auto" class="/static/sticker2.jpg">
+          <center><p style="color:#111" id="/static/sticker2.jpg">Decal 2 - $5.99</p></center>
+          <center><button class="btn default" style="opacity: 1.0; width: 85%;" onclick="addToCart('/static/sticker2.jpg', 'sticker')">Add to Cart</button></center>
+        </div>
+      </div>
+    </div>
+    
+<!--
+
+    <div><br><p style="font-size: 45px; margin-left: 5%; color:#000; font-family: 'Homenaje', sans-serif;">Apparel</p></div>
+    <div class="row" id="apparel" style="display: flex; justify-content: left; overflow-x: scroll; scrollbar-width: none; margin-left: 5%;">
+    {% for i in range(0, apparel_list_len) %}
+      <div style="padding-left: 20px; padding-right: 20px;">
+        <div style="background-color: #f6f6f9; padding-bottom: 10px;">
+          <img src="{{apparel_image[i]}}" height="250px" width="auto" class="{{apparel_list[i][3]}}">
+          <center><p style="color:#111" id="{{apparel_list[i][3]}}">{{apparel_list[i][0]}} - ${{apparel_list[i][2]}}</p></center>
+          <center>
+            <select name="size_{{apparel_list[i][3]}}" id="size_{{apparel_list[i][3]}}" style="width: 85%; color:#000; background-color:#fff; border: 1px solid #111;">
+              <option value="" disabled selected>Select Size</option>
+              <option value="{{apparel_list[i][6]}}">Small</option>
+              <option value="{{apparel_list[i][8]}}">Medium</option>
+              <option value="{{apparel_list[i][10]}}">Large</option>
+              <option value="{{apparel_list[i][9]}}">Extra Large</option>
+            </select>
+          </center>
+          <center><button class="btn default" style="opacity: 1.0; width: 85%;" onclick="addToCart('{{apparel_list[i][3]}}', 'apparel')">Add to Cart</button></center>
+        </div>
+      </div>
+    {% endfor %}
+    </div>
+
+
+    <div><br><p style="font-size: 45px; margin-left: 5%; color:#000; font-family: 'Homenaje', sans-serif;">Decals</p></div>
+    <div class="row" id="decals" style="display: flex; justify-content: left; overflow-x: scroll; scrollbar-width: none; margin-left: 5%;">
+    {% for i in range(0, sticker_list_len) %}
+      <div style="padding-left: 20px; padding-right: 20px;">
+        <div style="background-color: #f6f6f9; padding-bottom: 10px;">
+          <img src="{{sticker_image[i]}}" height="250px" width="auto" class="{{sticker_list[i][3]}}">
+          <center><p style="color:#111" id="{{sticker_list[i][3]}}">{{sticker_list[i][0]}} - ${{sticker_list[i][2]}}</p></center>
+          <center><button class="btn default" style="opacity: 1.0; width: 85%;" onclick="addToCart('{{sticker_list[i][3]}}', 'sticker')">Add to Cart</button></center>
+        </div>
+      </div>
+    {% endfor %}
+    </div>
+
+    <div><br><p style="font-size: 45px; margin-left: 5%; color:#000; font-family: 'Homenaje', sans-serif;">Tickets</p></div>
+    <div class="row" id="flags" style="display: flex; justify-content: left; overflow-x: scroll; scrollbar-width: none; margin-left: 5%;">
+      <p>tickets/calendar</p>
+    </div>
+
+    
+    <div><br><p style="font-size: 45px; margin-left: 5%; color:#8b1101; font-family: 'Homenaje', sans-serif;">Accessories</p></div>
+    <div class="row" id="accessories" style="display: flex; justify-content: left; overflow-x: scroll; scrollbar-width: none; margin-left: 5%;">
+    {% for i in range(0, accessory_list_len) %}
+      <div style="padding-left: 20px; padding-right: 20px;">
+        <div style="background-color: #f6f6f9; padding-bottom: 10px;">
+          <img src="{{accessory_image[i]}}" height="250px" width="auto">
+          <center><p style="color:#111">{{accessory_list[i][0]}} - ${{accessory_list[i][0]}}</p></center>
+          <center><button class="btn default" style="opacity: 1.0; width: 85%;">Add to Cart</button></center>
+        </div>
+      </div>
+    {% endfor %}
+    </div>
+    -->
+
+  <br><br><br><br>
+  <div style="background-color:#000; margin-left:15px;" id="info">
+    <div class="row">
+      <div class="col-sm-4">
+        <h3 style="color: white; font-family: 'Homenaje', sans-serif; font-size: 40px; float: left;">More Info</h3><br><br>
+      </div>
+      <div class="col-sm-4"></div>
+      <div class="col-sm-4"></div>
+    </div>
+    <div class="row">
+      <div class="col-sm-4">
+        <p style="color: white; float: left; margin-left: 25px;"><a href="/static/sizing.png" style="color:white; text-decoration: none;">Download Sizing Chart</a><br>&copy2023 Wickedboisclub</p>
+      </div>
+      <div class="col-sm-4"></div>
+      <div class="col-sm-4"></div>
+    </div><br><br>
+  </div>
+
+  <script type="text/javascript">
+    function scrollView(id) {
+      console.log(id);
+      const element = document.getElementById(id);
+      element.scrollIntoView({behavior: "smooth", block: "end", inline: "nearest"});
+    }
+  
+    function addToCart(id, category) {
+      let title = document.getElementById(id).innerText;
+      let image = (document.getElementsByClassName(id)[0]).src;
+      const d = new Date();
+      let time = d.getTime();
+      var cart = document.getElementById("cartItems");
+  
+      if (category == "apparel"){
+        var size = document.getElementById(("size_" + id));
+        var size_text = size.options[size.selectedIndex].text;
+        var new_id = size.value;
+        var content = "<div class='row cart_item " + time + "' id=" + new_id + "><div class='col-sm-4'><img src='" + image + "' height='90px' width='90px'></div><div class='col-sm-8'><div style='padding-left: 20px;'>" + title + "<br> Size - " + size_text + "<br><a onclick='removeItem(" + time + ")'>Remove</a></div></div></div><hr>";
+        cart.innerHTML += content;
+        return;
+      } else {
+        var content = "<div class='row cart_item " + time + "' id=" + id + "><div class='col-sm-4'><img src='" + image + "' height='90px' width='90px'></div><div class='col-sm-8'><div style='padding-left: 20px;'>" + title + "<br><a onclick='removeItem(" + id + ")'>Remove</a></div></div></div><hr>";
+        cart.innerHTML += content;
+      }
+    }
+  
+    function checkout() {
+      //send contents of cart to stripe checkout page
+      let items = document.getElementsByClassName("cart_item");
+      const product_list = [];
+
+      //get all product IDs from items list
+      for(let i = 0; i < items.length; i++){
+        product_list.push(items[i].id);
+      };
+
+      console.log(product_list);
+
+      //post list of product IDs to server
+      $.ajax({
+      url: ('/create-checkout-session'),
+      type: 'POST',
+      contentType: 'application/json;charset=UTF-8',
+      data: {'product_list' : product_list},
+        success: function(data){
+          window.location.replace(data);
+        }
+      });
+    }
+
+    function removeItem(className){
+      const elements = document.getElementsByClassName(className);
+      console.log(className, elements);
+      while(elements.length > 0){
+          elements[0].parentNode.removeChild(elements[0]);
+      }
+    }
+  </script>
+</body>
+</html>
